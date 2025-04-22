@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="coming_soon.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="coming_soon.css" />
+    <link
+      rel="stylesheet"
+      href="mobile.css"
+      media="only screen and (max-width: 400px)"
+    />
+
     <title>Coming Soon</title>
-    
-</head>
-<body>
-    
+  </head>
+  <body>
     <div class="decoration dot-purple"></div>
     <div class="decoration dot-black"></div>
     <div class="decoration cross-pink">✕</div>
@@ -18,7 +22,6 @@
     <div class="decoration line-pink"></div>
     <div class="decoration line-peach"></div>
 
-    
     <div class="decoration circle-blue"></div>
     <div class="decoration circle-blue2"></div>
     <div class="decoration circle-green"></div>
@@ -30,24 +33,28 @@
     <div class="decoration dashed-circle2"></div>
     <div class="decoration cross-teal">✕</div>
     <div class="decoration dot-group">
-        <div class="mini-dot"></div>
-        <div class="mini-dot"></div>
-        <div class="mini-dot"></div>
-        <div class="mini-dot"></div>
+      <div class="mini-dot"></div>
+      <div class="mini-dot"></div>
+      <div class="mini-dot"></div>
+      <div class="mini-dot"></div>
     </div>
     <div class="bottom-bar"></div>
 
-    
     <div class="content">
-        <h1>Coming <br> Soon</h1>
-        <p>Something Great is on its way</p>
-        <button class="notify-btn">Notify Me!</button>
+      <h1>
+        Coming <br />
+        Soon
+      </h1>
+      <p>Something Great is on its way</p>
+      <button class="notify-btn">Notify Me!</button>
     </div>
 
     <script>
-        document.querySelector('.notify-btn').addEventListener('click', function() {
-            alert('Thank you! You will be notified when we launch.');
+      document
+        .querySelector(".notify-btn")
+        .addEventListener("click", function () {
+          alert("Thank you! You will be notified when we launch.");
         });
     </script>
-</body>
+  </body>
 </html>
