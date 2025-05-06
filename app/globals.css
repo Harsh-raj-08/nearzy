@@ -11,6 +11,8 @@ h2 {
 }
 
 
+/* navbar */
+
 .navBar {
   padding: 20px 40px;
 }
@@ -58,4 +60,41 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+
+/* Search bar */
+
+.searchBarContainer {
+  width: 100%;
+  /* background-color: aliceblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 30px;
+}
+
+.searchBarContainer input {
+  border: 2px solid #fe4773;
+  width: 30%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-right: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  transition: 0.3;
+}
+
+.searchBarContainer input:focus {
+  outline: none;
+}
+
+.searchBarContainer img {
+  border: 2px solid #fe4773;
+  padding: 2px;
+  border-left: none;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+
 }
