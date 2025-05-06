@@ -1,26 +1,61 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+h2 {
+  font-weight: 700;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+.navBar {
+  padding: 20px 40px;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.leftContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.leftContainer:hover {
+  cursor: pointer;
+}
+
+.navBar .rightContainer {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.account {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.account:hover {
+  cursor: pointer;
+  background: #fe4773;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+button {
+  background: #fe4773;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
 }
