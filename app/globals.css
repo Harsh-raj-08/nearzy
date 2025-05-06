@@ -96,5 +96,27 @@ button:hover {
   border-radius: 10px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
+}
 
+.searchBarContainer img:hover {
+  cursor: pointer;
+}
+
+/* filter category */
+.filterContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.filterContainer button {
+  display: flex;
+  gap: 10px;
+}
+
+.filterContainer button img {
+  width: 20px;
 }
