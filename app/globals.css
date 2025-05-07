@@ -1,15 +1,23 @@
 @import "tailwindcss";
 
+/* #fff3f5 */
+/* #f7f5dd */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+
+
 h2 {
   font-weight: 700;
 }
 
+
+.mainContainer {
+  padding-inline: 80px;
+}
 
 /* navbar */
 
@@ -119,4 +127,83 @@ button:hover {
 
 .filterContainer button img {
   width: 20px;
+}
+
+/* categoryContainer */
+.categoriesContainer {
+  display: flex;
+  gap: 60px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+
+.categoryCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.categoryContainer {
+  width: 100px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: #fff3f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryContainer img {
+  width: 80%;
+}
+
+
+/* item cards */
+.itemCards {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border-radius: 10px;
+  gap: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.itemImg {
+  width: 180px;
+  min-height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemImg img {
+  width: 80%;
+}
+
+.itemTitle {
+  padding-inline: 10px;
+}
+
+.itemSubContainer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.itemRow {
+  padding-block: 30px;
+  margin-block: 50px;
+  padding-inline: 2px;
+  display: flex;
+  gap: 30px;
+  overflow-x: scroll;
 }
