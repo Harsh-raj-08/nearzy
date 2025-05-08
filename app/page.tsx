@@ -13,9 +13,12 @@ export default function Home() {
         <button><img src="shop.png"/> Shops</button>
         <button><img src="service.png"/> Services</button>
     </div>
-    <Categories/>
     <div className="mainContainer">
-      <ItemRow/>
+    <Categories/>
+      <ItemRow title="Fashion and Style"/>
+      <ItemRow title="Grocery"/>
+      <ItemRow title="Trending"/>
+      <ItemRow title="Electronics"/>
     </div>
     </>
   );

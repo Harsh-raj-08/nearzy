@@ -8,8 +8,6 @@
   box-sizing: border-box;
 }
 
-
-
 h2 {
   font-weight: 700;
 }
@@ -130,6 +128,7 @@ button:hover {
 }
 
 /* categoryContainer */
+
 .categoriesContainer {
   display: flex;
   gap: 60px;
@@ -137,6 +136,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  overflow-x: scroll;
 }
 
 
@@ -200,10 +200,36 @@ button:hover {
 
 
 .itemRow {
-  padding-block: 30px;
+  padding: 2px;
+  padding-bottom: 30px;
   margin-block: 50px;
-  padding-inline: 2px;
   display: flex;
   gap: 30px;
   overflow-x: scroll;
+}
+
+.items {
+  margin-top: 50px;
+}
+
+.items h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navBar .leftContainer {
+    display: none;
+  }
+
+  .navBar .rightContainer {
+    display: none;
+  }
+
 }
