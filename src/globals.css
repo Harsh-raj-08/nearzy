@@ -17,6 +17,74 @@ h2 {
   padding-inline: 80px;
 }
 
+/* Landing Page */
+
+section {
+  min-height: 100vh;
+}
+
+.landing img {
+  width: 300px;
+}
+
+.landing1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.landing1 img {
+  width: 300px;
+  margin-block: 350px 20px;
+}
+
+.landing h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.landing h3 {
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.landing h3 span {
+  color: #fe4773;
+}
+
+.landing p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.landing2 h2 {
+  margin-top: 20%;
+}
+
+.landing2 img {
+  margin-bottom: 100px;
+}
+
+.goTo {
+  display: flex;
+  gap: 12px;
+  /* position: fixed;
+  bottom: 5%;
+  left: 50%;
+  translate: -50% -50%; */
+}
+
+
 /* navbar */
 
 .navBar {
@@ -137,6 +205,7 @@ button:hover {
   align-items: center;
   margin-top: 50px;
   overflow-x: scroll;
+  padding: 10px;
 }
 
 
@@ -147,6 +216,12 @@ button:hover {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  transition: 0.3s;
+}
+
+.categoryCardContainer:hover {
+  cursor: pointer;
+  transform: scale(1.1)
 }
 
 .categoryContainer {
@@ -172,7 +247,11 @@ button:hover {
   border-radius: 10px;
   gap: 10px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s;
+}
 
+.itemCards:hover {
+  cursor: pointer;
 }
 
 .itemImg {
