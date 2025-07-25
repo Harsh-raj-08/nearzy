@@ -32,6 +32,7 @@ const FilterSort = ({ onSortChange, onPriceFilter, sortBy, priceRange }) => {
             value={priceRange}
             onChange={(e) => onPriceFilter(Number(e.target.value))}
             className="price-slider"
+            style={{ background: "#fe4773" }}
           />
           <span className="price-value">${priceRange}</span>
         </div>

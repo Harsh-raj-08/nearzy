@@ -45,7 +45,7 @@
 }
 
 .landing-btn {
-    background: #3b82f6;
+    background: #fe4773;
     color: white;
     font-weight: bold;
     padding: 16px 32px;
@@ -57,7 +57,7 @@
 }
 
 .landing-btn:hover {
-    background: #2563eb;
+    background: #fe4773;
 }
 
 /* Auth Pages Styles */
@@ -101,12 +101,12 @@
 }
 
 .auth-link a {
-    color: #3b82f6;
+    color: #fe4773;
     text-decoration: none;
 }
 
 .auth-link a:hover {
-    color: #2563eb;
+    color: #fe4773;
 }
 
 /* Product Detail Page Styles */
@@ -160,7 +160,7 @@
 .product-detail-price {
     font-size: 36px;
     font-weight: bold;
-    color: #3b82f6;
+    color: #fe4773;
 }
 
 .product-description {
@@ -246,7 +246,7 @@
 }
 
 .total-price {
-    color: #3b82f6;
+    color: #fe4773;
 }
 
 .empty-cart {
