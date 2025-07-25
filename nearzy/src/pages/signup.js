@@ -23,9 +23,13 @@ export default function Signup() {
       setError("");
       setLoading(true);
       await signup(email, password);
-      router.push("/home");
+      // Note: Supabase sends a confirmation email by default
+      alert(
+        "Please check your email to confirm your account before signing in."
+      );
+      router.push("/login");
     } catch (error) {
-      setError("Failed to create account. Please try again.");
+      setError(error.message || "Failed to create account. Please try again.");
     } finally {
       setLoading(false);
     }

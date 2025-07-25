@@ -20,7 +20,9 @@ export default function Login() {
       await login(email, password);
       router.push("/home");
     } catch (error) {
-      setError("Failed to login. Please check your credentials.");
+      setError(
+        error.message || "Failed to login. Please check your credentials."
+      );
     } finally {
       setLoading(false);
     }
