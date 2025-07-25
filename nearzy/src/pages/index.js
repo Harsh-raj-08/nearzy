@@ -5,7 +5,7 @@ export default function Landing() {
   return (
     <div className="landing-page">
       <Image
-        src="/images/landing-bg.jpg"
+        src="/landing-img.jpg"
         alt="E-commerce background"
         fill
         className="landing-bg"
